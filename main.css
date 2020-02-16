@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(136, 172, 136);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+h1 {
+    grid-column: 5 / 10;
+    margin: 2% 2% 2% 7%;
+}
+
+h3 {
+    grid-column: 2 / span4;
+}
+
+input {
+    grid-column: 2 / 5;
+    padding: 2% 2% 2% 5%;
+}
+
+p {
+    grid-column: 2 / span3;
+}
+
+.button {
+    display: block;
+    background-color: darkgreen;
+    margin: 10%;
+    padding: 7%;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+}

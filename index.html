@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shift Cipher Application</title>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <h1>Shift Cipher Application</h1>
+        <h3>Type a message below to get it encrypted into a secret message!</h3>
+        <input id="secretMessage" type="text" placeholder="Type secret message here!"></input>
+        <div onclick="rot13()" class="button">Submit</div>
+        <br>
+        <p id="encryptedMessage"></p>
+        <h3>Type an encoded message below to receive the decoded secret message!</h3>
+        <input id="superSecretMessage" type="text" placeholder="Type encrypted message here!"></input>
+        <div onclick="decryptRot13()" class="button">Submit</div>
+        <br>
+        <p id="decryptedMessage"></p>
+        <script src="main.js"></script>
+    </body>
+</html>
